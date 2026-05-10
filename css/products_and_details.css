@@ -11,10 +11,10 @@ header {
     margin: 9px;
 }
 section {
-    height: 1500px;
     width: 95%;
     margin: auto;
     overflow: auto;
+    height: 1500px;
 }
 
 body.vertical section {
