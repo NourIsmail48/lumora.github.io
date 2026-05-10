@@ -1,5 +1,4 @@
-
-
+//json
 var candles=[
     {
         'id': 1,
