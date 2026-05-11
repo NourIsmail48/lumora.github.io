@@ -1,8 +1,9 @@
-header{margin: 9px;}
+header{
+    margin: 9px;
+}
 *{
     margin: 0;
     box-sizing: border-box;
-   
 }
 body{
     background-color: #F5F0E1;
@@ -11,7 +12,7 @@ body.vertical main{
     width:calc(95%-290px);
     margin-right:intial;
 }
- div.h1{
+div.h1{
     text-align: center;
     padding-top: 10px;
 }
@@ -23,12 +24,11 @@ div.all{
     flex-wrap: wrap;
     justify-content: space-around;
     padding-top: 20px;
-    
 }
 div.img img{
-width: 400px;
-border-radius: 20px;
-margin-top: 10px;
+    width: 400px;
+    border-radius: 20px;
+    margin-top: 10px;
 }
 div.icon img{
     width: 40px;
@@ -43,23 +43,21 @@ div.icon button{
     justify-content: center; 
     align-items: center;
     background-color: #F5F0E1;
-     width: 40px;
+    width: 40px;
     height: 35px;
 }
 .icon button {
-  background: none;
-  border: none;
-  cursor: pointer;
-  font-size: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
 }
-
 .icon i {
-  color: #333;
-  transition: 0.3s;
+    color: #333;
+    transition: 0.3s;
 }
-
 .icon i:hover {
-  color: #c59d5f;
+    color: #c59d5f;
 }
 div.icon button:hover{
     opacity: 0.5;
@@ -74,7 +72,6 @@ div.word{
     padding: 10px;
     background-color:#B08968;
     border-radius: 20px;
-    
 }
 h1.h1{
     font-size: 30px;
@@ -90,7 +87,7 @@ div.javabutton{
     margin-top: 10px;
     justify-content: center;
     align-items: center;
-    }
+}
 div.quantity h3{
     font-weight: 300;
     font-size: 15px;
@@ -100,12 +97,12 @@ div.threebuttons{
     border: dotted 1.5px #F5F0E1;
     border-radius: 5PX;
     width: 100px;
-height: 30px;
+    height: 30px;
 }
 div.threebuttons button{
-background-color:transparent;
-border: none;
-padding: 3px;
-width: 40px;
-height: 25px;
+    background-color:transparent;
+    border: none;
+    padding: 3px;
+    width: 40px;
+    height: 25px;
 }
