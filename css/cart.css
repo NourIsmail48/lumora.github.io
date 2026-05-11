@@ -1,6 +1,5 @@
 body{
     background-color: #F5F0E1;
-    
 }
 main{
     margin:40px 70px 70px 70px;
@@ -8,8 +7,8 @@ main{
 }
 .everything{
     display: flex;
-  gap: 40px;
-  align-items: flex-start;
+    gap: 40px;
+    align-items: flex-start;
 }
 .cart_details{
     width: 60%;
@@ -18,8 +17,8 @@ main{
     width: 40%;
     text-align: center;
     background: #f3e9d7;
-  padding: 20px;
-  border-radius: 6px;
+    padding: 20px;
+    border-radius: 6px;
 }
 body.dark section .cart_totals{
     color: #d6bfa6;
@@ -29,11 +28,10 @@ h2{
     margin-top: 0px;
     padding: 5px;
     border-bottom: 2px solid #ddd;
-    
 }
 .total_row{
-  font-weight: bold;
-  font-size: 20px;
+    font-weight: bold;
+    font-size: 20px;
 }
 .checkout{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -58,10 +56,10 @@ h2{
     color: #7a553a;
 }
 .links{
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
 }
 .page_name{
     font-size: larger;
@@ -71,26 +69,26 @@ h2{
 }
 .products_header,
 .product {
-  display: grid;
-  grid-template-columns: 10px 80px 1fr 130px 130px 130px;
-  align-items: center;
-  gap: 15px;
+    display: grid;
+    grid-template-columns: 10px 80px 1fr 130px 130px 130px;
+    align-items: center;
+    gap: 15px;
 }
 .products_header {
     font-size: larger;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-weight: bold;
-  border-bottom: 2px solid #ddd;
-  padding: 10px 0;
-  background: #f3e9d7;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border-bottom: 2px solid #ddd;
+    padding: 10px 0;
+    background: #f3e9d7;
 }
 body.dark section .products_header{
     color: #d6bfa6;
 }
 .product {
     font-family: Georgia, 'Times New Roman', Times, serif;
-  padding: 10px 0;
-  border-bottom: 2px solid #ddd;
+    padding: 10px 0;
+    border-bottom: 2px solid #ddd;
 }
 body.dark section .product{
     color: #d6bfa6;
@@ -99,58 +97,53 @@ body.dark section .product{
     background-color:#f3e9d7 ;
 }
 img {
-  width: 60px;
+    width: 60px;
 }
 button {
-  cursor: pointer;
+    cursor: pointer;
 }
-
 .remove {
     color:#b08968 ;
-  background: none;
-  border: none;
-  font-size: 25px;
-  opacity: 0.8;
-  padding: 3px 0px;
+    background: none;
+    border: none;
+    font-size: 25px;
+    opacity: 0.8;
+    padding: 3px 0px;
 }
 .remove:hover{
     color: #d6bfa6;
 }
 .quantity {
-  display: flex;
-  align-items: center;
-  border: #d6bfa6 solid 1px;
-  border-radius: 5px;
-  padding: 3px 8px;
-  width: fit-content;
+    display: flex;
+    align-items: center;
+    border: #d6bfa6 solid 1px;
+    border-radius: 5px;
+    padding: 3px 8px;
+    width: fit-content;
 }
-
 .quantity button {
-  border: none;
-  background: none;
-  font-size: 16px;
-  border-radius: 10px;
+    border: none;
+    background: none;
+    font-size: 16px;
+    border-radius: 10px;
 }
 .quantity span {
-  margin: 0px 8px;
-  font-size: 14px;
+    margin: 0px 8px;
+    font-size: 14px;
 }
-
 .minus:hover{
    color: #b08968;
 }
 .plus:hover{
     color: #b08968;
 }
- 
 .coupon{
     padding: 10px 0px 0px 20px;
     font-size: large;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #7a553a;
-  flex-direction: column;
-  width: 60%;
-  
+    flex-direction: column;
+    width: 60%;
 }
 input{
     border:none ;
@@ -180,22 +173,22 @@ input:focus{
     background-color: #b08968;
 }
 .coupon_row {
-  display: flex;
-  align-items: center;
-  gap: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 .wishlist{
     padding: 10px 0px 0px 20px;
     font-size: large;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #7a553a;
-  flex-direction: column;
-  width: 40%;
+    flex-direction: column;
+    width: 40%;
 }
 .wishlist a{
     text-decoration: none;
@@ -207,15 +200,13 @@ input:focus{
     color: #7a553a;
 }
 .promo_message {
-  font-size: 14px;
-  margin-top: 5px;
-  padding-left: 3px;
+    font-size: 14px;
+    margin-top: 5px;
+    padding-left: 3px;
 }
-
 .promo_message.success {
-  color: rgb(5, 106, 5);
+    color: rgb(5, 106, 5);
 }
-
 .promo_message.error {
-  color: red;
+    color: red;
 }
